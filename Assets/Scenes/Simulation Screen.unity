@@ -521,8 +521,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCar: {fileID: 0}
   offset: {x: 0, y: 3.5, z: 4}
-  smoothSpeed: 0.75
-  followSpeed: 2000
+  smoothSpeed: 0.22
+  followSpeed: 160
+  offSetBehind: 6
+  offSetAbove: 2
 --- !u!1 &1393660917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,7 +1291,6 @@ MonoBehaviour:
   carControllerScript: {fileID: 0}
   timerScript: {fileID: 703558731}
   waypointController: {fileID: 0}
-  sceneCamera: {fileID: 1153694233}
   minuteIndex: 0
   secondIndex: 1
   milliIndex: 2
