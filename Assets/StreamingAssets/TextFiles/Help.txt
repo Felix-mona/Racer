@@ -1,0 +1,21 @@
+Hello! 
+Welcome to rAIcer.
+
+These are the instructions -----------
+- Select a track by clicking on one of the buttons under 'Choose a Track:'
+- Select a car by clicking on one the buttons under 'Choose a Car:'
+- To start the simulation, select the 'Start' button at the bottom the screen
+NOTE: If you select start without having a choice selected for the track and car the simulation won't start!
+
+
+------Basis of this Project---------
+This project is to demonstrate to you the user, how an AI model called Reinforcement Learning works. The idea is that
+the car(s) you see on the screen are all controlled by AI (The computer). They must use trial and error 
+to find whether they should accelerate/turn right/turn left at any point during the Race scene. Every time the computer
+crashes/makes a bad move it is 'rewarded' less than if it were to go further round the race course. Therefore there is less
+chance of it doing that series of moves the next time it spawns in. Eventually the car(s) should make their way round the
+whole track, at which point the simulation ends and you see some interesting statistics about its time taken... etc.
+
+
+Thank you for playing!
+Leave any feedback here: rAIcer@gmail.com
